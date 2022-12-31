@@ -15,7 +15,7 @@
 
   A ideia é utilizar este problema para fazer uma análise preditiva, explorando diferentes modelos de machine learning, para o caso de classificação.
 
-## O Problem a ser analisado
+## O problema a ser analisado
 
 Como a base de dados do **'Santander Customer Transaction Prediction'** tem o seguinte texto guia: 
 
