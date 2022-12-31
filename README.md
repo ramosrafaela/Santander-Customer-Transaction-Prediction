@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-  <img src="https://github.com/ramosrafaela/GEANT4-ARAPUCA-Simulations/blob/main/figures/gamma_5M_log.png" width="600" height="300" />
+  <img src="figures/santander.png" width="600" height="300" />
 </p>
 
 <h1 align="center"> Kaggle : Santander Customer Transaction Prediction  </h1>
@@ -42,4 +42,16 @@ Um detalhe é que a base de dados de teste não possui a coluna target, então n
 Além disso, a base de dados já esta bastante limpa, não sendo necessário fazer um trabalho arduo de pré-processamento dos dados.
 
 ## Resultados 
+
+<div class="box">
+    <img src="figures/target_count_teste.png" width="500" height="350"/>
+</div>
+<div class="box">
+    <img src="figures/img/target_count_validation.png" width="500" height="350"/>
+</div>
+<style>
+div.box {
+    display: inline-block;
+}
+</style>
 
