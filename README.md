@@ -1,6 +1,6 @@
 <br>
 <p align="center">
-  <img src="figures/santander_loja.png"/>
+  <img src="figures/santander.png"/>
 </p>
 
 <h1 align="center"> Kaggle : Santander Customer Transaction Prediction  </h1>
@@ -35,8 +35,10 @@ O recall é dado pela equação:
 $$ recall = \frac{VP}{VP + FN}$$
 
 
-
 O problema consta com a variável **ID_code** que é a identificação do cliente, a **target** que é o problema que estamos querendo resolver, isto é, é a variável do tipo classe (binária, 0 ou 1), e teremos um total de **200** features, identificadas como: var_0, var_1, ..., var_199.
 
 Um detalhe é que a base de dados de teste não possui a coluna target, então não seria possível verificar as métricas do nosso modelo utilizando esses dados, portanto, o que será feito é dividir a base de treino em duas: uma efetivamente de treino e outra de validação, de forma a ter uma proporção 70% e 30%, respectivamente.
 Além disso, a base de dados já esta bastante limpa, não sendo necessário fazer um trabalho arduo de pré-processamento dos dados.
+
+## Resultados 
+
