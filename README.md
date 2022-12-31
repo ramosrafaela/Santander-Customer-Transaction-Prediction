@@ -1,6 +1,7 @@
 <br>
+
 <p align="center">
-  <img src="figures/santander.png"/>
+  <img src="https://github.com/ramosrafaela/GEANT4-ARAPUCA-Simulations/blob/main/figures/gamma_5M_log.png" width="600" height="300" />
 </p>
 
 <h1 align="center"> Kaggle : Santander Customer Transaction Prediction  </h1>
