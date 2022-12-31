@@ -43,9 +43,44 @@ Além disso, a base de dados já esta bastante limpa, não sendo necessário faz
 
 ## Resultados 
 
+#### Primeiras observações 
+
+Legenda para entendimento do problema: 
+   *  ID_code :  identificação do cliente
+   *  target: variável que queremos prever
+   *  var_i ; i = 0, 1, ..., 199
+   
+observa-se que em ambos conjuntos de dados, treino e validacao, não há valores nulos. Também não será necessário fazer processo de cleaning e escalonamento, visto que as variáveis estão sem significado e as ordens de grandeza estão próximas. 
+
+Temos um caso de classes desbalanceadas, sendo as contagens:
+  - Treino:
+      * classe 0 : 125972 contagens  
+      * classe 1 : 14028 contagens
+  - Validação:
+      * classe 0 : 53930 contagens  
+      * classe 1 : 6070 contagens
+
 <p float="left" align="center">
   <img src="figures/target_count_teste.png" width="400" height="250"/>
   <img src="figures/target_count_validation.png" width="400" height="250"/>
 </p>
 
+As variáveis não são correlacionadas, de forma que não existe uma correlação acima de 0.5 entre as variáveis. Isto pode ser observado pela figura abaixo:
 
+<p align="center">
+  <img src="figures/correlacao.png" width="600" height="300" />
+</p>
+
+
+Quatro modelos de machine learning foram utilizados: ``Regressão Logística, Random Forest, Gradient Boosted Decision Tree (XGBoost) e Redes Neurais.``
+
+
+Os modelos foram avaliados segundo a métrica **recall**. De forma que, resumidamente, obtivemos os seguintes resultados:
+
+   -  **Random Forest**: 0.72
+   - **Regressão Logistica**: 0.80
+   - **GBDT**: 0.82
+   - **Rede Neural**: 0.78    
+   
+Com isso, olhando apenas para o recall, a GBDT demonstrou possuir uma melhor performance, apesar de ter apresentado overfiting com o modelo retornado pelo GridSearchCV(). 
+A GBDT também apresenta uma melhor curva ROC, estando mais localizada ao canto superior esquerdo do gráfico, sua AUC foi igual a 0.88.
