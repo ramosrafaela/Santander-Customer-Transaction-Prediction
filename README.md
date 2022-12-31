@@ -43,9 +43,9 @@ Além disso, a base de dados já esta bastante limpa, não sendo necessário faz
 
 ## Resultados 
 
-<p>
-  <img src="figures/target_count_teste.png"/>
-  <img src="figures/target_count_validation.png"/>
+<p float="left">
+  <img src="figures/target_count_teste.png" width="300" height="150"/>
+  <img src="figures/target_count_validation.png" width="300" height="150"/>
 </p>
 
 
