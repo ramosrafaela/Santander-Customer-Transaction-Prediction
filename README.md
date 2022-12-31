@@ -43,15 +43,9 @@ Além disso, a base de dados já esta bastante limpa, não sendo necessário faz
 
 ## Resultados 
 
-<div class="box">
-    <img src="figures/target_count_teste.png" width="500" height="350"/>
-</div>
-<div class="box">
-    <img src="figures/target_count_validation.png" width="500" height="350"/>
-</div>
-<style>
-div.box {
-    display: inline-block;
-}
-</style>
+<p align="center">
+  <img src="figures/target_count_teste.png" width="600" height="300" />
+  <img src="figures/target_count_validation.png" width="600" height="300" />
+</p>
+
 
