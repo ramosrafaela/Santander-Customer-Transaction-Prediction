@@ -68,7 +68,7 @@ Temos um caso de classes desbalanceadas, sendo as contagens:
 As variáveis não são correlacionadas, de forma que não existe uma correlação acima de 0.5 entre as variáveis. Isto pode ser observado pela figura abaixo:
 
 <p align="center">
-  <img src="figures/correlacao.png" width="600" height="300" />
+  <img src="figures/correlacao.png" width="900" height="450" />
 </p>
 
 
