@@ -44,10 +44,10 @@ Além disso, a base de dados já esta bastante limpa, não sendo necessário faz
 ## Resultados 
 
 <div class="box">
-    <img src="figures/target_count_teste.png" width="500" height="350"/>
+    <img src="figures/target_count_teste.png" width="200" height="200"/>
 </div>
 <div class="box">
-    <img src="figures/img/target_count_validation.png" width="500" height="350"/>
+    <img src="figures/img/target_count_validation.png" width="200" height="200"/>
 </div>
 <style>
 div.box {
