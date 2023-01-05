@@ -84,3 +84,8 @@ Os modelos foram avaliados segundo a métrica **recall**. De forma que, resumida
    
 Com isso, olhando apenas para o recall, a GBDT demonstrou possuir uma melhor performance, apesar de ter apresentado overfiting com o modelo retornado pelo GridSearchCV(). 
 A GBDT também apresenta uma melhor curva ROC, estando mais localizada ao canto superior esquerdo do gráfico, sua AUC foi igual a 0.88.
+
+
+<p align="center">
+  <img src="figures/roccurve.png" width="900" height="450" />
+</p>
