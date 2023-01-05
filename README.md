@@ -87,5 +87,5 @@ A GBDT também apresenta uma melhor curva ROC, estando mais localizada ao canto 
 
 
 <p align="center">
-  <img src="figures/roccurve.png" width="900" height="450" />
+  <img src="figures/roccurve.png" width="500" height="350" />
 </p>
